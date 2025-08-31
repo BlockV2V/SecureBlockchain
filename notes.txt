@@ -1,0 +1,10 @@
+blockchain is a shared public ledger that is distributed and synchronized in the world
+
+each user has a unique public key [username] for receiving money and a private key [password] for spending money
+
+but first u need to prove ur ownership befire spending the model
+
+each transaction contains the hash or encrypted representation of the previous transaction and new owner public key then hash is signed with previous owner private key 
+this way it is possible to validate the chain of ownership here without needing to expose the private key and signature make it virtually impossible to alter the transaction after its been issued 
+
+to overcome the double spending mining come at the place to validate the block proof of work  -> hard to solve but easy to verify
